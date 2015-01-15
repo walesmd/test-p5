@@ -47,17 +47,17 @@ function loadData() {
 
   var urlNYT;
 
-  /* THIS CODE USES MY TRUE API KEY
+  /* THIS CODE USES MY TRUE API KEY */
   urlNYT = 'http://api.nytimes.com/svc/search/v2/articlesearch.json?q=' +
   cityString + '&api-key=30eb270dbc8954549a8f43b3c444585e:17:68821162';
-  */
+
 
   // This code uses the API Key I found from a random person on GitHub at:
   // https://github.com/Eric-Xu/headline_ctr_prediction/blob/3990bae4e3f6d703e01795c3a3507eafdf4323c3/nytimes_articles_api.txt
   // The search I used to find random people's NYTimes API key is:
   // https://github.com/search?q=api.nytimes.com%2Fsvc%2Fsearch%2Fv2%2Farticlesearch.json+api-key&type=Code
-  urlNYT = 'http://api.nytimes.com/svc/search/v2/articlesearch.json?q=' +
-    cityString + '&api-key=e7f754fbb084a342de0efe77f721de64:11:70185922';
+  // urlNYT = 'http://api.nytimes.com/svc/search/v2/articlesearch.json?q=' +
+  //   cityString + '&api-key=e7f754fbb084a342de0efe77f721de64:11:70185922';
 
   // This is the line that starts (and sees finished) the process of fetching
   // and rendering NYT articles on the page.
